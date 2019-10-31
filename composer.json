@@ -1,0 +1,33 @@
+{
+    "name": "gazin/validation",
+    "description": "Validation entity",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "psr",
+        "psr-4"
+    ],
+    "authors": [
+        {
+            "name": "Jeyson Luiz Romualdo",
+            "email": "jeysonlr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "doctrine/annotations": "v1.8.0",
+        "composer/composer": "1.9.0",
+        "symfony/validator": "^4.3",
+        "container-interop/container-interop": "^1.2",
+        "dasprid/container-interop-doctrine": "^1.1",
+        "gazin/http": "^1.0.1",
+        "gazin/base-entity": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "Validation/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
