@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Validation;
 
+use Validation\ValidationService;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Validator\Validation;
 

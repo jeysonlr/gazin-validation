@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Validation;
 
 use Symfony\Component\Validator\Validator\ValidatorInterface;
-use User\Entity\BaseEntityInterface;
+use BaseEntity\BaseEntityInterface;
 use Exception\EntityBadRequestException;
 use Exception\EntityNotFoundException;
 use Exception\EntitySymfonyException;

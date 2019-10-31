@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Validation;
 
-use BaseEntityInterface;
+use BaseEntity\BaseEntityInterface;
 
 interface ValidationServiceInterface
 {
