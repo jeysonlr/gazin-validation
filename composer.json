@@ -22,7 +22,6 @@
         "dasprid/container-interop-doctrine": "^1.1",
         "gazin/http": "^1.0.1",
         "jms/serializer": "^3.3"
-        // "gazin/base-entity": "^1.0"
     },
     "autoload": {
         "psr-4": {
